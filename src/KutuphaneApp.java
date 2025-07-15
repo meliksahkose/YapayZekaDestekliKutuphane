@@ -16,7 +16,7 @@ public class KutuphaneApp extends JFrame {
     private JTextField girisAlani;
 
     private static final String API_URL = "https://openrouter.ai/api/v1/chat/completions";
-    private static final String API_KEY = "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";
+    private static final String API_KEY = "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";
     private static final String MODEL = "deepseek/deepseek-chat";
 
     public KutuphaneApp(int kullaniciId, String kullaniciAdi) {
