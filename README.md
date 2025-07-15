@@ -49,7 +49,8 @@ Kurulum
 Projeyi GitHub'dan indirin veya klonlayın
 GitHub sayfasına gidip Code > Download ZIP diyerek ya da terminalden:
 
-git clone https://github.com/kullaniciadi/proje-adi.git
+git clone https://github.com/meliksahkose/YapayZekaDestekliKutuphane.git
+
 komutuyla indirebilirsiniz.
 
 NetBeans ile projeyi açın
