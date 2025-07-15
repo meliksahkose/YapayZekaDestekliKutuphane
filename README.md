@@ -32,6 +32,20 @@ Uygulama içinde entegre bir yapay zeka destekli sohbet botu yer almaktadır. Ku
 - Bilgi almak istediği konular hakkında sorular yöneltebilir
 - Genel sohbet edebilir
 
+!!!Projeyi çalıştırdığınızda, sohbet botuna mesaj gönderirken bir hata alacaksınız. Bu, sistemde tanımlı olan API anahtarının geçersiz veya sınırlı olmasından kaynaklanır.
+
+Bu sorunu çözmek için:
+
+https://openrouter.ai adresine giderek ücretsiz bir API anahtarı oluşturun.
+
+Proje klasöründe KutuphaneApp.java dosyasını açın.
+
+19. satırdaki şu satırı bulun:
+
+private static final String API_KEY = "sk-or-......";
+Tırnak içindeki kısmı kendi API anahtarınızla değiştirin.
+
+Uygulamayı tekrar çalıştırdığınızda sohbet botu sorunsuz şekilde yanıt verecektir. 
 
 ---
 
